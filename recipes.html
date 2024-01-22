@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+/>
+  <link rel="stylesheet" href="CSS/recipes.css" />
+  <!-- Link to your adapted CSS file -->
+  <title>Recipes-TasteVentures</title>
+</head>
+<body>
+
+<!-- Top Bar -->
+<div class="top-bar">
+<div class="container">
+  <div class="contact-info">
+    <p>Email: info@tasteventures.com</p>
+    <p>Phone: +123456789</p>
+  </div>
+  <div class="social-enquiry">
+    <div class="social-icons">
+      <!-- Social media icons here -->
+      <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+      <a href="#" class="icon"><i class="fab fa-pinterest"></i></a>
+      <a href="#" class="icon"><i class="fab fa-snapchat-ghost"></i></a>
+      <!-- Add more social icons -->
+    </div>
+    <div class="enquire-btn">
+      <a href="#">Enquire Now</a>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+<div class="container">
+  <div class="logo">
+    <a href="home.html"><img src="LOGO/Logo.png" alt="Logo" /></a>
+    <h1>Taste Ventures</h1>
+  </div>
+  <ul class="menu">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="destinations.html">Destinations</a></li>
+    <li><a href="experiences.html">Experiences</a></li>
+
+    <li class="dropdown">
+      <a href="getinspired.html"class="dropbtn">Get Inspired &#9662;</a></button> 
+      <!-- Added dropdown arrow symbol -->
+      <div class="dropdown-content">
+        <ul>
+          <li><a href="food-drinks.html">Food and Drinks</a></li>
+          <li><a href="travel.html">Travel</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+        </ul>
+      </div>
+    </li>
+
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contactus.html">Contact Us</a></li>
+    <!-- Add more menu items -->
+  </ul>
+  <div class="search-bar">
+    <input type="text" placeholder="Search..." />
+    <button>Search</button>
+  </div>
+</div>
+</nav>
+  <body>
+    <header>
+      <div class="content">
+        <h1>Discover Popular Recipes</h1>
+        <p>Find the most sought-after and delicious recipes of the season.</p>
+      </div>
+    </header>
+
+    <section id="recipes">
+      <div class="recipe-cards">
+        <div class="recipe-card">
+          <div class="image-container-recipe">
+            <img src="R-images/bacalhau-bras-1-1024x683.jpg" alt="Recipe 1" />
+            <input
+              type="checkbox"
+              id="favorite-checkbox-1"
+              class="favorite-checkbox"
+            />
+            <label for="favorite-checkbox-1" class="favorite">&#10084;</label>
+            <h3>Recipe 1</h3>
+            <p>Description for recipe 1</p>
+            <div class="ratings-recipe">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recipe-card">
+          <div class="image-container-recipe">
+            <img
+              src="R-images/bacalhau-com-natas-2-1024x683.jpg"
+              alt="Recipe 2"
+            />
+            <input
+              type="checkbox"
+              id="favorite-checkbox-2"
+              class="favorite-checkbox"
+            />
+            <label for="favorite-checkbox-2" class="favorite">&#10084;</label>
+            <h3>Recipe 2</h3>
+            <p>Description for recipe 2</p>
+            <div class="ratings-recipe">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recipe-card">
+          <div class="image-container-recipe">
+            <img
+              src="R-images/bolo-cenoura-carrot-cake-6-1024x683.jpg"
+              alt="Recipe 3"
+            />
+            <input
+              type="checkbox"
+              id="favorite-checkbox-3"
+              class="favorite-checkbox"
+            />
+            <label for="favorite-checkbox-3" class="favorite">&#10084;</label>
+            <h3>Recipe 3</h3>
+            <p>Description for recipe 3</p>
+            <div class="ratings-recipe">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recipe-card">
+          <div class="image-container-recipe">
+            <img
+              src="R-images/Butter-chicken-tikka-masala-recipe-curry-indiano-frango-2.jpg"
+              alt="Recipe 4"
+            />
+            <input
+              type="checkbox"
+              id="favorite-checkbox-4"
+              class="favorite-checkbox"
+            />
+            <label for="favorite-checkbox-4" class="favorite">&#10084;</label>
+            <h3>Recipe 4</h3>
+            <p>Description for recipe 4</p>
+            <div class="ratings-recipe">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recipe-card">
+          <div class="image-container-recipe">
+            <img
+              src="R-images/caldo-verde-sopa-2-1024x683.jpg"
+              alt="Recipe 5"
+            />
+            <input
+              type="checkbox"
+              id="favorite-checkbox-5"
+              class="favorite-checkbox"
+            />
+            <label for="favorite-checkbox-5" class="favorite">&#10084;</label>
+            <h3>Recipe 5</h3>
+            <p>Description for recipe 5</p>
+            <div class="ratings-recipe">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recipe-card">
+          <div class="image-container-recipe">
+            <img
+              src="R-images/img-bacalhau-gomes-de-sá-recipe.jpeg"
+              alt="Recipe 6"
+            />
+            <input
+              type="checkbox"
+              id="favorite-checkbox-6"
+              class="favorite-checkbox"
+            />
+            <label for="favorite-checkbox-6" class="favorite">&#10084;</label>
+            <h3>Recipe 6</h3>
+            <p>Description for recipe 6</p>
+            <div class="ratings-recipe">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recipe-card">
+          <div class="image-container-recipe">
+            <img
+              src="R-images/img-brazil-moqueca-15-1024x683.jpg"
+              alt="Recipe 7"
+            />
+            <input
+              type="checkbox"
+              id="favorite-checkbox-7"
+              class="favorite-checkbox"
+            />
+            <label for="favorite-checkbox-7" class="favorite">&#10084;</label>
+            <h3>Recipe 7</h3>
+            <p>Description for recipe 7</p>
+            <div class="ratings-recipe">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recipe-card">
+          <div class="image-container-recipe">
+            <img
+              src="R-images/img-brazil-moqueca-2-1024x683.jpg"
+              alt="Recipe 8"
+            />
+            <input
+              type="checkbox"
+              id="favorite-checkbox-8"
+              class="favorite-checkbox"
+            />
+            <label for="favorite-checkbox-8" class="favorite">&#10084;</label>
+            <h3>Recipe 8</h3>
+            <p>Description for recipe 8</p>
+            <div class="ratings-recipe">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recipe-card">
+          <div class="image-container-recipe">
+            <img
+              src="R-images/receita-tortilla-5-2-1024x683.jpg"
+              alt="Recipe 9"
+            />
+            <input
+              type="checkbox"
+              id="favorite-checkbox-9"
+              class="favorite-checkbox"
+            />
+            <label for="favorite-checkbox-9" class="favorite">&#10084;</label>
+            <h3>Recipe 9</h3>
+            <p>Description for recipe 9</p>
+            <div class="ratings-recipe">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recipe-card">
+          <div class="image-container-recipe">
+            <img
+              src="R-images/sangria-espanha-2-1024x683.jpg"
+              alt="Recipe 10"
+            />
+            <input
+              type="checkbox"
+              id="favorite-checkbox-10"
+              class="favorite-checkbox"
+            />
+            <label for="favorite-checkbox-10" class="favorite">&#10084;</label>
+            <h3>Recipe 10</h3>
+            <p>Description for recipe 10</p>
+            <div class="ratings-recipe">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recipe-card">
+          <div class="image-container-recipe">
+            <img src="R-images/tom-kha-gai-4-1024x683.jpg" alt="Recipe 11" />
+            <input
+              type="checkbox"
+              id="favorite-checkbox-11"
+              class="favorite-checkbox"
+            />
+            <label for="favorite-checkbox-11" class="favorite">&#10084;</label>
+            <h3>Recipe 11</h3>
+            <p>Description for recipe 11</p>
+            <div class="ratings-recipe">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recipe-card">
+          <div class="image-container-recipe">
+            <img
+              src="R-images/vegetables-stock-classic-caldo-legumes-classico-2.jpg"
+              alt="Recipe 12"
+            />
+            <input
+              type="checkbox"
+              id="favorite-checkbox-12"
+              class="favorite-checkbox"
+            />
+            <label for="favorite-checkbox-12" class="favorite">&#10084;</label>
+            <h3>Recipe 12</h3>
+            <p>Description for recipe 12</p>
+            <div class="ratings-recipe">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            </div>
+          </div>
+        </div>
+        <!-- Continue adding more recipe cards with the same structure -->
+      </div>
+    </section>
+    <footer class="culinary-footer">
+      <div class="footer-section about-culinary-tourism">
+        <h2 class="green">About Culinary Tourism</h2>
+        <p>
+          Explore the world through its flavors! Culinary tourism is a journey
+          that tantalizes your taste buds and feeds your wanderlust. Immerse
+          yourself in diverse cultures and traditions through food.
+        </p>
+      </div>
+
+      <div class="footer-section featured-destinations">
+        <h2 class="green">Featured Destinations</h2>
+        <!-- Add images or thumbnails of renowned food-centric destinations -->
+        <div class="destination-images">
+          <!-- Images/thumbnails here -->
+        </div>
+      </div>
+
+      <div class="footer-section subscribe-newsletter">
+        <h2 class="green">Subscribe to Our Newsletter</h2>
+        <form class="subscribe-form" action="#" method="post">
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email Address"
+            required
+          />
+          <button type="submit">Subscribe</button>
+        </form>
+        <p>
+          Stay in the loop! Get the latest food trends, mouthwatering recipes,
+          and exclusive travel guides delivered to your inbox.
+        </p>
+      </div>
+
+      <div class="footer-section social-media">
+        <h2 class="green">Follow Us</h2>
+        <ul class="social-links">
+          <li><a href="#" target="_blank">Instagram</a></li>
+          <li><a href="#" target="_blank">Facebook</a></li>
+          <li><a href="#" target="_blank">Twitter</a></li>
+        </ul>
+        <p>
+          Join the conversation! Follow us for daily foodie inspiration and
+          travel adventures.
+        </p>
+      </div>
+
+      <div class="footer-section contact-information">
+        <h2><a class="green" href="contactus.html" >Contact Us</a></h2>
+        <p>Got a question or suggestion? Reach out to us:</p>
+        <p>Email: info@tasteventures.com</p>
+        <!-- Add more contact information or a contact form here -->
+      </div>
+
+      <div class="footer-section copyrights">
+        <p class="green">&copy; 2023 TasteVentures. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
